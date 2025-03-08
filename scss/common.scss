@@ -25,11 +25,8 @@ html {
 
 .sp_n {
   @include mq("sp") {
-<<<<<<< HEAD
     display: none !important;
-=======
-    display: none;
->>>>>>> 603bb78 (自分のコードを追加)
+
   }
 }
 
@@ -102,13 +99,6 @@ img {
   height: 35rem;
   margin-top: 1.5rem;
   border-bottom: 2px solid var(--headergradation, #02b1a6);
-<<<<<<< HEAD
-=======
-
-  @include mq("sp") {
-    display: none;
-  }
->>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .sub-page-mv__inner {
@@ -150,11 +140,9 @@ img {
   white-space: nowrap;
   margin-top: 0.9rem;
 }
-<<<<<<< HEAD
 
 
 body.no-scroll {
   overflow: hidden;
 }
-=======
->>>>>>> 603bb78 (自分のコードを追加)
+

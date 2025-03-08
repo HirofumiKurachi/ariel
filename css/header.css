@@ -275,7 +275,6 @@
   gap: 2.4rem;
   align-items: center;
 }
-<<<<<<< HEAD
 @media (max-width: 767px) {
   .header__nav {
     flex-direction: column;
@@ -291,9 +290,6 @@
     text-align: left;
   }
 }
-=======
-
->>>>>>> 603bb78 (自分のコードを追加)
 .header__nab_link a {
   color: var(--text-color, #333);
   /* body text base */
@@ -304,7 +300,6 @@
   line-height: 160%; /* 2.56rem */
   transition: all 0.3s ease;
 }
-<<<<<<< HEAD
 @media (max-width: 767px) {
   .header__nab_link a {
     font-size: 1.4rem;
@@ -315,8 +310,6 @@
     display: block;
   }
 }
-=======
->>>>>>> 603bb78 (自分のコードを追加)
 .header__nab_link a:hover {
   opacity: 0.8;
 }
@@ -330,7 +323,6 @@
   .header__nab_link a {
     font-size: 1.4rem;
   }
-<<<<<<< HEAD
 }
 .navbar {
   height: 5.2rem;
@@ -457,6 +449,5 @@
 .header-sp__logo {
   width: 21.6282rem;
   height: 2.1011rem;
-=======
->>>>>>> 603bb78 (自分のコードを追加)
 }
+/*# sourceMappingURL=header.css.map */

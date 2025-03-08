@@ -2,13 +2,10 @@
 
 .privacy-page-top {
   margin-top: 4.3rem;
-<<<<<<< HEAD
-=======
 
   @include mq("sp") {
     margin-top: 4rem;
   }
->>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .privacy-page__beginning {
@@ -16,14 +13,11 @@
   line-height: 1.6;
   font-weight: 500;
   font-family: "Zen Old Mincho";
-<<<<<<< HEAD
-=======
 
   @include mq("sp") {
     font-size: 1.4rem;
     line-height: 1.58;
   }
->>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .privacy-page__items {
