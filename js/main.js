@@ -48,7 +48,11 @@ const swiper = new Swiper(".fv-swiper", {
       },
       // 768px以上の場合
       768: {
+<<<<<<< HEAD
         slidesPerView: 1.92, // 768px以上では2.1枚表示
+=======
+        slidesPerView: 2.1, // 768px以上では2.1枚表示
+>>>>>>> 603bb78 (自分のコードを追加)
       }
     },
     autoplay: { // 自動再生
@@ -68,6 +72,7 @@ const swiper = new Swiper(".fv-swiper", {
   });
 
 
+<<<<<<< HEAD
   // マンスリープライススライダー-------------------------------------
   const mySwiper = new Swiper('.manthly-swiper', {
     loop: true,
@@ -79,6 +84,16 @@ const swiper = new Swiper(".fv-swiper", {
       // 768px未満の場合
       0: {
         slidesPerView: 1.22,
+=======
+  const mySwiper = new Swiper('.manthly-swiper', {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 15,
+    breakpoints: {
+      // 768px未満の場合
+      0: {
+        slidesPerView: 1.2,
+>>>>>>> 603bb78 (自分のコードを追加)
       },
       // 768px以上の場合
       768: {
@@ -103,7 +118,11 @@ const swiper = new Swiper(".fv-swiper", {
     breakpoints: {
       // 768px未満の場合
       0: {
+<<<<<<< HEAD
         slidesPerView: 1.28,
+=======
+        slidesPerView: 1.2,
+>>>>>>> 603bb78 (自分のコードを追加)
       },
       // 768px以上の場合
       768: {
@@ -118,6 +137,7 @@ const swiper = new Swiper(".fv-swiper", {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     }
+<<<<<<< HEAD
   });
 
 
@@ -164,3 +184,6 @@ const swiper = new Swiper(".fv-swiper", {
 });
 
 
+=======
+  });
+>>>>>>> 603bb78 (自分のコードを追加)

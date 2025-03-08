@@ -1,6 +1,14 @@
 .privacy-page-top {
   margin-top: 4.3rem;
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 767px) {
+  .privacy-page-top {
+    margin-top: 4rem;
+  }
+}
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .privacy-page__beginning {
   font-size: 1.6rem;
@@ -8,6 +16,14 @@
   font-weight: 500;
   font-family: "Zen Old Mincho";
 }
+<<<<<<< HEAD
+=======
+@media (max-width: 767px) {
+  .privacy-page__beginning {
+    font-size: 1.4rem;
+  }
+}
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .privacy-page__items {
   padding-top: 2.9rem;
@@ -74,4 +90,9 @@
 
 .privacy-page__item-end {
   margin-top: 4rem;
+<<<<<<< HEAD
 }
+=======
+}
+/*# sourceMappingURL=privacy-page.css.map */
+>>>>>>> 603bb78 (自分のコードを追加)

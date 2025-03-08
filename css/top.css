@@ -129,6 +129,7 @@
 .manthly-price {
   padding-bottom: 26rem;
   background: url(../img/top/monthly-bg.png) no-repeat center center/contain;
+<<<<<<< HEAD
   padding-top: 9.9rem;
 }
 @media (max-width: 767px) {
@@ -137,6 +138,13 @@
     background: url(../img/top/monthly-bg_sp.png) no-repeat center center/cover;
     width: 39rem;
     height: 50.1rem;
+=======
+  padding-top: 8.9rem;
+}
+@media (max-width: 767px) {
+  .manthly-price {
+    padding-top: 6.3rem;
+>>>>>>> 603bb78 (自分のコードを追加)
   }
 }
 
@@ -150,42 +158,54 @@
 .manthly-swiper {
   margin-top: 4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .manthly-swiper {
     margin-top: 1.9rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .menu {
   padding-bottom: 8rem;
   text-align: right;
   margin-top: -10rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .menu {
     margin-top: 0.6rem;
     padding-bottom: 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .menu-title {
   display: inline-block;
   text-align: left;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .menu-title h2 {
     font-size: 1.6rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .menu-swiper {
   margin-top: 4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .menu-swiper {
     margin-top: 2.5rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .menu-swiper .swiper-slide a {
   display: block;
   border-radius: 2rem;
@@ -286,11 +306,14 @@
   padding-top: 2.4rem;
   padding-bottom: 4.9rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor {
     padding-top: 0px;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__tle {
   text-align: center;
@@ -299,6 +322,7 @@
 .doctor__title {
   display: inline-block;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__title {
     padding-bottom: 2.6rem;
@@ -307,6 +331,8 @@
     font-size: 5.8rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .doctor__title h2 {
   text-align: left;
 }
@@ -316,6 +342,7 @@
 
 .doctor__list {
   position: relative;
+<<<<<<< HEAD
   margin-top: 10rem;
   max-width: 105.4rem;
   margin-left: auto;
@@ -338,11 +365,21 @@
     margin-left: 0;
     left: 0;
   }
+=======
+  margin-top: 4rem;
+  max-width: 102rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.doctor__list .doctor__img {
+  margin-left: auto;
+>>>>>>> 603bb78 (自分のコードを追加)
 }
 .doctor__list .doctor__left {
   left: 0;
   z-index: 2;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__list .doctor__left {
     order: 2;
@@ -354,12 +391,15 @@
     padding-bottom: 0.7rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .doctor__list .doctor__img::after {
   position: absolute;
   content: "";
   background: url(../img/top/doctor__text.png) no-repeat center center/cover;
   width: 27.6rem;
   height: 32.7rem;
+<<<<<<< HEAD
   right: -4.8rem;
   top: -5.8rem;
 }
@@ -370,22 +410,33 @@
     right: 0;
     top: 0.3rem;
   }
+=======
+  right: -4.4rem;
+  top: -4.7rem;
+>>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .doctor__list02 {
   position: relative;
+<<<<<<< HEAD
   left: 3rem;
   margin-top: 9.3rem;
+=======
+  margin-top: 4rem;
+>>>>>>> 603bb78 (自分のコードを追加)
   max-width: 102rem;
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__list02 {
     margin-top: 2rem;
     left: auto;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .doctor__list02 .doctor__img {
   border-radius: 9rem 0 0 0;
 }
@@ -395,6 +446,7 @@
   background: url(../img/top/doctor__text02.png) no-repeat center center/cover;
   width: 25.7rem;
   height: 27.6rem;
+<<<<<<< HEAD
   left: -4.5rem;
   top: -3.8rem;
 }
@@ -404,14 +456,22 @@
     top: -0.3rem;
   }
 }
+=======
+  left: -3.3rem;
+  top: -3.8rem;
+}
+>>>>>>> 603bb78 (自分のコードを追加)
 .doctor__list02 .doctor__img::after img {
   border-radius: 9rem 0 0 0;
   background-color: #ccc;
   display: inline-block;
 }
+<<<<<<< HEAD
 .doctor__list02 .doctor__left {
   padding-bottom: 1.5rem;
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__img {
   width: 58.9rem;
@@ -420,12 +480,15 @@
   position: relative;
   border-radius: 0 9rem 0 0;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__img {
     width: 37rem;
     height: 45rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__img_bg img {
   width: 49.2rem;
@@ -435,6 +498,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__img_bg img {
     width: 30rem;
@@ -448,10 +512,21 @@
   top: 50%;
   transform: translateY(-50%);
   width: 55rem;
+=======
+
+.doctor__left {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 55rem;
+  height: 60rem;
+>>>>>>> 603bb78 (自分のコードを追加)
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0px 4px 10px 0px rgba(91, 163, 115, 0.2);
   padding-top: 4rem;
+<<<<<<< HEAD
   padding-bottom: 4rem;
   padding-left: 5.6rem;
   padding-right: 5.6rem;
@@ -475,6 +550,12 @@
     padding-left: 2rem;
   }
 }
+=======
+  padding-bottom: 1.5rem;
+  padding-left: 5.6rem;
+  padding-right: 5.6rem;
+}
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__left_head {
   color: var(--main-color, #02B1A6);
@@ -489,11 +570,14 @@
 .doctor__left_name {
   margin-top: 2.4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__left_name {
     margin-top: 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__left_name_sub {
   color: var(--border-color, #CCC);
@@ -534,11 +618,14 @@
   gap: 2.4rem;
   width: 18.9rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__left_sns {
     margin-top: 2.1rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .doctor__left_sns a {
   transition: 0.3s;
   width: 3rem;
@@ -553,11 +640,14 @@
 .doctor__history {
   margin-top: 2.4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__history {
     margin-top: 2.2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__history_head {
   color: #CCC;
@@ -579,20 +669,26 @@
   line-height: 160%; /* 2.56rem */
   margin-top: 1.6rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__history_text {
     font-size: 1.4rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__left_qualification {
   margin-top: 2.4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__left_qualification {
     margin-top: 1.6rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .doctor__left_qualification_head {
   color: #CCC;
@@ -614,11 +710,14 @@
   line-height: 160%; /* 2.56rem */
   margin-top: 1.6rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__left_qualification_text {
     font-size: 1.4rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .btn {
   width: 15.1rem;
@@ -672,16 +771,20 @@
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .doctor__btn {
     margin-top: 2.8rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .insta {
   padding-top: 2.8rem;
   padding-bottom: 6.3rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .insta {
     padding-top: 1.1rem;
@@ -694,6 +797,8 @@
     font-size: 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .insta__list {
   display: flex;
@@ -703,6 +808,7 @@
   gap: 4em;
   align-items: center;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .insta__list {
     justify-content: center;
@@ -715,15 +821,20 @@
     font-size: 6.1rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .insta__icon {
   width: 6rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .insta__icon {
     width: 3rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .insta__box {
   margin-top: 6.3rem;
@@ -731,28 +842,39 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.333rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .insta__box {
     grid-template-columns: 1fr 1fr;
     gap: 3.6rem 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .insta__item {
   height: 29rem;
   background-color: #ccc;
   width: 100%;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .insta__item {
     height: 17.5rem;
   }
+=======
+
+.news {
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+>>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .news {
   padding-top: 4.9rem;
   padding-bottom: 2.4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .news {
     padding-top: 0.4rem;
@@ -772,6 +894,8 @@
     border-radius: 0.5rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .news__list {
   display: flex;
@@ -779,11 +903,14 @@
   position: relative;
   padding-left: 2.4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .news__list {
     padding-left: 0rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .news__list::after {
   content: "";
   position: absolute;
@@ -808,12 +935,15 @@
 .news__btn {
   margin-top: 7.3rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .news__btn {
     margin-top: 3.1rem;
     margin-left: 0rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .news__right {
   width: 82rem;
@@ -822,7 +952,10 @@
 @media (max-width: 767px) {
   .news__right {
     width: auto;
+<<<<<<< HEAD
     margin-top: 1.9rem;
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
   }
 }
 
@@ -832,22 +965,28 @@
   display: block;
   transition: 0.3s;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .news__right_item {
     padding-bottom: 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .news__right_item:hover {
   opacity: 0.7;
 }
 .news__right_item:nth-of-type(n+2) {
   margin-top: 5.6rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .news__right_item:nth-of-type(n+2) {
     margin-top: 2rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .news__time {
   color: #CCC;
@@ -874,6 +1013,7 @@
   padding-top: 6.4rem;
   padding-bottom: 4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about {
     padding-top: 2.2rem;
@@ -891,6 +1031,8 @@
     font-size: 5rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__list {
   margin-top: 6.1rem;
@@ -899,11 +1041,14 @@
   margin-left: auto;
   margin-right: auto;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__list {
     margin-top: 4rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__img {
   border-radius: 9rem 0 0 0;
@@ -915,10 +1060,14 @@
 }
 @media (max-width: 767px) {
   .about__img {
+<<<<<<< HEAD
     height: 20.3rem;
     width: 31rem;
     margin-left: auto;
     margin-right: auto;
+=======
+    width: auto;
+>>>>>>> 603bb78 (自分のコードを追加)
   }
 }
 .about__img::after {
@@ -934,9 +1083,12 @@
   .about__img::after {
     width: 35.1rem;
     height: 18.4rem;
+<<<<<<< HEAD
     background: url(../img/top/clinc_text_sp.png) no-repeat center center/cover;
     top: -2.7rem;
     left: -2.8rem;
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
   }
 }
 
@@ -946,6 +1098,7 @@
   transform: translateY(-50%);
   right: 0;
   width: 59.1rem;
+<<<<<<< HEAD
   height: auto;
   background: rgba(255, 255, 255, 0.6);
   box-shadow: 0px 4px 4px 0px rgba(2, 177, 166, 0.2);
@@ -968,6 +1121,12 @@
     padding-right: 1rem;
     padding-bottom: 5.4rem;
   }
+=======
+  height: 36.4rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 4px 4px 0px rgba(2, 177, 166, 0.2);
+  padding: 3rem;
+>>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .about__text {
@@ -979,11 +1138,14 @@
   font-weight: 500;
   line-height: 160%; /* 2.56rem */
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__text {
     font-size: 1.4rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__btn {
   text-align: right;
@@ -992,12 +1154,15 @@
   right: 9.5rem;
   bottom: 3.9rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__btn {
     right: 7.8rem;
     bottom: 2.4rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__link {
   text-align: right;
@@ -1015,8 +1180,11 @@
 @media (max-width: 767px) {
   .about__list02 {
     grid-template-columns: 1fr;
+<<<<<<< HEAD
     margin-top: 0.9rem;
     gap: 2rem;
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
   }
 }
 
@@ -1028,12 +1196,15 @@
   position: relative;
   transition: 0.3s;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__item {
     padding-top: 0;
     height: 13.3rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .about__item:hover {
   opacity: 0.7;
 }
@@ -1041,11 +1212,14 @@
   text-align: right;
   padding-right: 4rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__item:nth-of-type(2) .about__heading_title {
     padding-right: 2.5rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 .about__item img {
   position: absolute;
   width: 100%;
@@ -1054,23 +1228,29 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__item img {
     height: 13.3rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__heading {
   position: absolute;
   top: 4.8rem;
   right: 1.1rem;
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__heading {
     top: 3.2rem;
     right: 3.7rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__heading_sub {
   color: rgba(2, 177, 166, 0.3);
@@ -1081,11 +1261,14 @@
   font-weight: 400;
   line-height: 100%; /* 6.4rem */
 }
+<<<<<<< HEAD
 @media (max-width: 767px) {
   .about__heading_sub {
     font-size: 4.8rem;
   }
 }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 
 .about__heading_title {
   color: var(--sub-color, #E5F8EF);
@@ -1098,6 +1281,7 @@
   letter-spacing: 0.16rem;
   text-align: center;
   margin-top: -2.5rem;
+<<<<<<< HEAD
 }
 @media (max-width: 767px) {
   .about__heading_title {
@@ -1373,4 +1557,6 @@
     padding-bottom: 10rem;
     padding-top: 8.7rem;
   }
+=======
+>>>>>>> 603bb78 (自分のコードを追加)
 }
