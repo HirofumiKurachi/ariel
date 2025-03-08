@@ -21,12 +21,18 @@
 @media (max-width: 767px) {
   .privacy-page__beginning {
     font-size: 1.4rem;
+    line-height: 1.58;
   }
 }
 >>>>>>> 603bb78 (自分のコードを追加)
 
 .privacy-page__items {
   padding-top: 2.9rem;
+}
+@media (max-width: 767px) {
+  .privacy-page__items {
+    padding-top: 0.8rem;
+  }
 }
 
 .privacy-page__item {
@@ -43,6 +49,12 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+@media (max-width: 767px) {
+  .privacy-page__item-title-main {
+    font-size: 2rem;
+    letter-spacing: 0.16rem;
+  }
+}
 
 .privacy-page__item-numbers {
   list-style-type: none;
@@ -52,12 +64,23 @@
 .privacy-page__item-number {
   margin-top: 4.5rem;
 }
+@media (max-width: 767px) {
+  .privacy-page__item-number {
+    margin-top: 2.5rem;
+  }
+}
 
 .privacy-page__item-title-sub {
   font-size: 2rem;
   font-family: "Zen Old Mincho";
   font-weight: 700;
   letter-spacing: 0.15rem;
+}
+@media (max-width: 767px) {
+  .privacy-page__item-title-sub {
+    font-size: 1.4rem;
+    letter-spacing: 0;
+  }
 }
 
 .privacy-page__item-text {

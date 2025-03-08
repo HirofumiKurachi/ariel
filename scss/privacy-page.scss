@@ -21,12 +21,17 @@
 
   @include mq("sp") {
     font-size: 1.4rem;
+    line-height: 1.58;
   }
 >>>>>>> 603bb78 (自分のコードを追加)
 }
 
 .privacy-page__items {
   padding-top: 2.9rem;
+
+  @include mq("sp") {
+    padding-top: 0.8rem;
+  }
 }
 
 .privacy-page__item {
@@ -34,7 +39,6 @@
 }
 
 .privacy-page__item-title-main {
-  // font-family: Noto Serif JP;
   font-family: "Zen Old Mincho";
   font-weight: 700;
   font-size: 2.4rem;
@@ -43,6 +47,11 @@
   padding-left: 3rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
+  @include mq("sp") {
+    font-size: 2rem;
+    letter-spacing: 0.16rem;
+  }
 }
 
 .privacy-page__item-numbers {
@@ -53,6 +62,10 @@
 
 .privacy-page__item-number {
   margin-top: 4.5rem;
+
+  @include mq("sp") {
+    margin-top: 2.5rem;
+  }
 }
 
 .privacy-page__item-title-sub {
@@ -60,6 +73,11 @@
   font-family: "Zen Old Mincho";
   font-weight: 700;
   letter-spacing: 0.15rem;
+
+  @include mq("sp") {
+    font-size: 1.4rem;
+    letter-spacing: 0;
+  }
 }
 
 .privacy-page__item-text {
@@ -67,6 +85,7 @@
   font-family: "Zen Old Mincho";
   margin-top: 2.6rem;
   line-height: 1.6;
+
 }
 
 .privacy-page__item-text-sub {
