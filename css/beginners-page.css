@@ -148,4 +148,254 @@
   font-family: "Zen Old Mincho";
   margin-top: 2rem;
 }
+
+.flow-top {
+  margin-top: 14.3rem;
+}
+
+.flow__title {
+  display: inline-block;
+}
+
+.flow__title h2 {
+  text-align: left;
+}
+
+.flow__title::after {
+  left: 0;
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.flow__inner {
+  width: 100%;
+}
+
+.flow__heading {
+  text-align: center;
+}
+
+.flow__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.flow__card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #00a6a6;
+  border-radius: 2rem;
+  padding: 4rem;
+  width: 100%;
+  position: relative;
+  padding-top: 3.8rem;
+  margin-bottom: 3rem;
+  padding-right: 0;
+}
+
+.flow__card:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.flow__card-number {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  text-align: center;
+  padding: 0 3.6rem 3.9rem 3.6rem;
+  flex: 0 0 10rem;
+}
+
+.flow__card-number-large {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  text-align: center;
+  padding: 0 3.6rem 3.9rem 3.6rem;
+  flex: 0 0 10rem;
+  align-self: self-start;
+  margin-top: 2.9rem;
+}
+
+.flow__card-number span {
+  display: block;
+  font-size: 3.6rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  margin-top: 1rem;
+}
+
+.flow__card-number-large span {
+  display: block;
+  font-size: 3.6rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  margin-top: 1rem;
+}
+
+.flow__card-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+}
+
+.flow__card-content-large {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+}
+
+.flow__card-img {
+  width: 100%;
+  max-width: 28rem;
+  margin-left: 2.2rem;
+}
+
+.flow__card-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 280/160;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.flow__card-img::before {
+  content: "";
+  position: absolute;
+  top: 16%; /* 上から配置 */
+  left: 13.1%; /* 左端 */
+  width: 0.1rem; /* 線の太さ */
+  height: 67%; /* 親要素と同じ高さ */
+  background-color: rgb(2, 177, 166); /* 緑色 */
+}
+
+.flow__card-text {
+  flex: 1;
+}
+
+.flow__card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.7;
+  font-family: Zen Old Mincho;
+  color: #00a6a6;
+  margin-top: -0.5rem;
+}
+
+.follow-reception {
+  margin-top: -5.5rem;
+}
+
+.flow__card-description {
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 1.6;
+  font-family: Zen Old Mincho;
+  margin-top: 2rem;
+  white-space: nowrap; /* ✅ 1行表示を強制 */
+}
+
+.flow__buttons {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.flow__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.7rem;
+  border-radius: 0.5rem;
+}
+
+.flow__button-img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.flow__button-title {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.04rem;
+  font-family: Zen Old Mincho;
+  line-height: 1.6;
+  margin-left: 1rem;
+}
+
+.flow__button--line {
+  background-color: #00c300;
+}
+
+.flow__button--web {
+  background-color: #ff6b6b;
+}
+
+.flow__button--phone {
+  background-color: #f5a623;
+}
+
+.flow__arrow {
+  width: 10rem;
+  height: 4rem;
+  background: url("../img/beginners/arrow.png") no-repeat center;
+  background-size: contain;
+}
+
+.flow__payment-list {
+  margin-top: 2rem;
+}
+
+.flow__payment-item {
+  display: flex;
+}
+
+.flow__payment-item:not(:first-child) {
+  margin-top: 1.1rem;
+}
+
+.flow__payment-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.flow__payment-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: Zen Old Mincho;
+}
+
+.flow__payment-card-img {
+  width: 43.8rem;
+  height: 4.5rem;
+}
+
+.flow-card-large {
+  min-height: 580px;
+}
+
+.payment__details {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: Zen Old Mincho;
+}
+
+.payment__details li {
+  list-style-type: disc; /* ✔ 黒丸（•）を表示 */
+  list-style-position: inside; /* ✔ テキストと一緒にインデント */
+}
 /*# sourceMappingURL=beginners-page.css.map */
