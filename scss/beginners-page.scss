@@ -4,6 +4,10 @@
   margin-top: 6.7rem;
 }
 
+.beginners-guide-title {
+  left: 39%;
+}
+
 .beginners__title {
   display: inline-block;
 }
@@ -46,51 +50,88 @@
   left: 0;
 }
 
+.reason__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2.5rem;
+  row-gap: 11.9rem;
+  margin-top: 10.8rem;
+}
+
 .reason-card__item {
   position: relative; /* ✅ これを追加！ */
   display: block; /* ✅ `a`タグなので block に */
 }
 
-.reason-card__item::before {
+.reason-card__polygon::before {
   content: "";
   position: absolute;
-  top: -30px;
-  left: 50%;
+  top: -5.7rem;
+  left: 26%;
   transform: translateX(-50%);
-  width: 100px; /* ✅ 画像のサイズに合わせて適切な値を指定 */
-  height: 100px;
+  width: 20.2rem; /* ✅ 画像のサイズに合わせて適切な値を指定 */
+  height: 20.2rem;
   background-image: url("../img/beginners/polygon1.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.reason-card__item::after {
+.reason-card__polygon::after {
   content: "";
   position: absolute;
-  top: -50px;
-  left: 50%;
+  top: -7rem;
+  left: 30%;
   transform: translateX(-50%);
-  width: 120px; /* ✅ こちらも適切なサイズを指定 */
-  height: 120px;
+  width: 20.2rem; /* ✅ こちらも適切なサイズを指定 */
+  height: 20.2rem;
   background-image: url("../img/beginners/polygon2.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.reason__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 2.5rem;
+.reason-card__text-main {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  position: absolute;
+  top: 0%; /* 調整可能 */
+  left: 26.4%;
+  transform: translateX(-50%);
+  // color: rgba(229, 248, 239, 1);
+}
+
+.reason-card__text-number {
+  font-size: 4.8rem;
+  font-weight: 400;
+  font-family: Aboreto;
+  position: absolute;
+  top: 6.8%; /* 調整可能 */
+  left: 26.5%;
+  transform: translateX(-50%);
+  // color: rgba(229, 248, 239, 1);
+}
+
+.reason-card__item-img::before {
+  content: "";
+  position: absolute;
 }
 
 .reason-card__item-img {
+  max-width: 73%; /* 画像の最大幅を設定（テキストより小さく） */
+  // margin: 0 auto; /* 中央揃え */
+  margin-left: 7.4rem;
+}
+
+.reason-card__item-img img {
+  width: 100%;
+  height: auto;
   aspect-ratio: 280/291;
   object-fit: cover;
-  width: 100%;
 }
 
 .reason-card__body {
-  margin-top: 2rem;
+  max-width: 100%; /* テキスト部分の最大幅を指定 */
+  margin: 2rem auto 0; /* 上の余白を調整し、中央揃え */
 }
 
 .reason-card__text {
@@ -105,7 +146,7 @@
 .reason-card__text-sub {
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 1.6;
+  line-height: 1.65;
   font-family: "Zen Old Mincho";
   margin-top: 2rem;
 }
