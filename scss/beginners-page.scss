@@ -426,15 +426,15 @@
 }
 
 .flow__button a {
-  border: 0.5px solid $beige;
+  border: 0.2rem solid rgba(2, 177, 166, 1);
   display: inline-block;
   max-width: 204px;
   width: 100%;
   padding: 15.5px 57px;
-  font-size: 16px;
+  font-size: 1.4rem;
   border-radius: 6px;
   text-align: center;
-  color: $beige;
+  color: rgba(2, 177, 166, 1);
   position: relative;
   text-decoration: none;
   outline: none;
@@ -461,8 +461,8 @@
   margin-top: -4px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  border-top: 1px solid $white;
-  border-right: 1px solid $white;
+  border-top: 0.1rem solid rgba(2, 177, 166, 1);
+  border-right: 0.1rem solid rgba(2, 177, 166, 1);
   content: "";
   display: inline-block;
   vertical-align: middle;

@@ -398,4 +398,53 @@
   list-style-type: disc; /* ✔ 黒丸（•）を表示 */
   list-style-position: inside; /* ✔ テキストと一緒にインデント */
 }
+
+.flow__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 19px;
+  text-decoration: none;
+  outline: none;
+  /*アニメーションの指定*/
+  transition: all 0.3s;
+}
+
+.flow__button a:hover {
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
+  border-color: transparent;
+}
+
+.flow__button a {
+  border: 0.2rem solid rgb(2, 177, 166);
+  display: inline-block;
+  max-width: 204px;
+  width: 100%;
+  padding: 15.5px 57px;
+  font-size: 1.4rem;
+  border-radius: 6px;
+  text-align: center;
+  color: rgb(2, 177, 166);
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  font-family: Noto Serif JP;
+  letter-spacing: 0.05em;
+}
+
+.flow__button a::after {
+  position: absolute;
+  top: 54%;
+  right: -12px;
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  transform: rotate(45deg);
+  border-top: 0.1rem solid rgb(2, 177, 166);
+  border-right: 0.1rem solid rgb(2, 177, 166);
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 33px;
+}
 /*# sourceMappingURL=beginners-page.css.map */
